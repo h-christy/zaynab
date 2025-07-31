@@ -1,0 +1,84 @@
+---
+title: "Causal Inference for Computational Social Science"
+date: "2025-07-14"
+authors:
+  - name: Christy Hsu
+    affiliation: Georgetown University
+    roles: writing
+    corresponding: true
+description: "To people who travel and take notes"
+title-block-banner: '#C6E3E1'
+title-block-banner-color: "#6F6F6F"
+format:
+  html:
+    # df-print: kable
+    embed-resources: true
+    theme: default
+    css: styles.css
+bibliography: causal.bib
+---
+
+::: {.callout-note}
+
+cultural criticism Sayyid Qutb
+
+the society under the rule of Uthman was no longer "Islamic"...
+
+
+:::
+
+## Abstract
+
+## Introduction
+
+
+On what basis can we talk about an "Islamic Revival", "Islamic Radicalization"? What evidence can allow us to indicate an emerging support for political Islam from the mass in the 1980s?
+
+- The coming up of new ideas, new political thinkings and new imagination of communities which Islam played a significant role.
+
+- The rapid growth of members and geograohical coverage of Muslim Brotherhood as a movement.
+
+- The most direct evidence probably is that the Islamist, or the Islamic political parties were doing well in elections.[@garnhamDemocracyWarPeace1995]
+
+- Election handbook[@krennerichElectionsAfricaData1999]
+
+## Literature Review
+
+#### Mark Tessler and 
+
+The study that I hope to revisit is[@tesslerOriginsPopularSupport1997]
+
+
+#### Steven Brooke and Neil Ketchley
+
+This study took on an innovative approach for a historical understanding the origins of Politcal Islam in inter-war (1937-1945) Egypt.
+
+One way that we can talk about the increasing popular support for Islamist movements in the middle East and to find an explanation for that social phenomenon[@brookeSocialInstitutionalOrigins2018, dataverse]
+
+#### Theories
+
+1. Olivier Roy: born Muslim again in the west, suggesting that political islam has to do with East-West encounters
+2. A creative response to Modernity: modern (western) education gave them the ability of becoming some of the strongest critics of modern western society (Sayyid Qutb)
+3. A going back that is disrupting the grain of history that they expect should have continued to progress toward their values. Against the grain, not enlightened.
+
+Some of the theories that we would not want to adopt as we believe that there are ways of looking at this history that would be..
+
+The end of history, the clash of civilization, the new world order.
+
+## Tools
+
+Bayesian Work flow[@gelmanBayesianDataAnalysis2013]
+
+## Content
+
+### Evidence
+
+**1988 Jamal al-Suwaidi Survey Data**
+
+This survey was carried out in mid-1988, with samples drawfrom Cairo and Kuwait, targeting the urban Sunni adults: Egyptians (n = 292), Kuwaitis (n = 300)and Palestinians residing in Kuwait at that time (n = 293).[@garnhamDemocracyWarPeace1995, pp. 164-166]
+
+The data available on ICPSR *Carnegie Middle East Governance and Islam Dataset, 1988-2014 (ICPSR 32302)* only includes only the Egyptian and Kuwaiti sample, the Palestinian sample is not present.[@tesslerCarnegieMiddleEast2016a]
+
+
+### EDA and the Naive Attempt
+
