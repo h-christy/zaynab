@@ -24,6 +24,23 @@ cultural criticism Sayyid Qutb
 
 the society under the rule of Uthman was no longer "Islamic"...
 
+1988-01-28 Mubarak and Reagon meeting[@RemarksWelcomingCeremony]
+
+:::
+
+::: {.callout-tip}
+
+**diveristy**
+**patterns**
+**historical topics**
+
+The main message that I wanted this project to bring about is that:
+
+The Umma from its beginning to how the muslims would like to project today has the property of diversity
+
+The Sharia, the foundations of Islamic Laws that basically formulated by 850 ad, was a mark of an effort to apprehend the Islamic scripture (the Quran and the Hadith) and the customary practices of the earlist followers of Muhammad into a structuring device for a continuing society to reproduce and for the umma to thrive. How the community and the laws has always been closely tied together can be proven by the diversity of the community reflected on the diversity in Islamic Law.
+
+The Sharia, the Islamic law that basically formulated by around 850 AD, marked an effort to apprehend the Islamic scriptures (the Quran and the Hadith) and the customary practices of the earliest followers of Muhammad, turning them into a structuring device for a continuing society to reproduce and for the umma to thrive. The close connection between the community and the law is evident in the way the diversity of the community is reflected in the diversity of Islamic law.
 
 :::
 
@@ -35,6 +52,9 @@ the society under the rule of Uthman was no longer "Islamic"...
 On what basis can we talk about an "Islamic Revival", "Islamic Radicalization"? What evidence can allow us to indicate an emerging support for political Islam from the mass in the 1980s?
 
 - The coming up of new ideas, new political thinkings and new imagination of communities which Islam played a significant role.
+
+> the ideological preparation for thia massive social revolution had been articulated for almost a century
+> My principle argument was that "Islamic Ideology" as a kind of Kantian Categorical Imperative, was formed in dialectical conversation with the West, itself a categorical invention of the European (colonial) modernity. (here, I would be willing to adopt Dabashi's definition of the rise of "Islamic Ideology" counting from al-Afaghani (1838-1897))[@dabashiTheologyDiscontentIdeological, ix-x]
 
 - The rapid growth of members and geograohical coverage of Muslim Brotherhood as a movement.
 
@@ -82,3 +102,24 @@ The data available on ICPSR *Carnegie Middle East Governance and Islam Dataset, 
 
 ### EDA and the Naive Attempt
 
+## Context
+
+- 1960, the development of religiously-leaning parties in Turkey^[mme notes]
+- 1983-05-20, Motherland Party in Turkey.
+- 1986-02-22 People Power Revolution in the Philippines, the good muslim image that the moro Muslim elites constructed for them^[Lapidus, pp. 752-754]
+- Tunisia, since 1960s rather than French-Tunisian id, they go for Arab and Muslim identities. 1981 the founding of Islamic Tendency Movement by Rashid al-Ghannouchi, 1989 Ben Ali banned Islamist parties^[Lapidus, pp. 640-641]
+
+#### Egypt
+
+- Egypt after the Free Officers' revolution came to be a semi-authoritarian regime, being a one-party republic yet relied heavilt on popular support, and marked by the military authoritarian rules that represented itself being will of the mass.
+- Yet, that one party from liberation Party to Nationa Union to Arab Socialist Union still have been faced with a implicit competitor, which is the Muslim Brotherhood, which by retaining that being religious thus required the regime to tolerate and can't be entirely outlawed, despite that they have already obtained control over al-Azhar, mosque and even made religion a matter of administration.
+
+#### Iran
+
+- The de-radicalization of Shii community, under Jafar al-Sadiq (702-765 AD)
+- It is the Safavid Dynasty that made Persia a Shii majority
+- traditional?
+- Shariati
+- the stratgic anti-west[@royFailurePoliticalIslam1994]
+
+> (Shii muslims outside Iran) Claiming a Shiite identity, in fact, indicates a desire to intergrate into modern society, and not a rejection of moderntiy [@royFailurePoliticalIslam1994, pp. 187-189]
