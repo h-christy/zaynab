@@ -18,108 +18,175 @@ format:
 bibliography: causal.bib
 ---
 
-::: {.callout-note}
+# Abstract
 
-cultural criticism Sayyid Qutb
+As the Middle East entered its modern period, we witnessed the coming up of Islamic ideologies, Islamist movements and, observed concrete "popular support for Political Islam" as Islamists in the region emerged as major opposition groups further as the establishment of Islamic states. Reflecting the recognition of Islamists and Islamic political thoughts by the Middle Easterners, the phenomenon so called Political Islam is interesting not only because it is distinct viewing from "the West" which often discern that getting wrangling religion with politics is a going back since the course of history should be modernize and secularize. But because Political Islam has persisted to be one of the important characteristic of the politics of the Islamic World. The massive amount of scholarly research also indicates the importance of this topic as well as the now had repeatedly addressed multi-dimensionality and complexity in the academics. 
 
-the society under the rule of Uthman was no longer "Islamic"...
+With the language of Probability Graphical Model, the merits that, this project attempts to model the data generating process of how people came to support Islamist in 1988, or to evaluate whether we can really discern that of a single formula for these individuals.
 
-1988-01-28 Mubarak and Reagon meeting[@RemarksWelcomingCeremony]
+
+# Introduction
+
+This project hopes to understand the historical topic-- *Islamic Revival*, *Islamic Radicalization* or *Islamic Ideology*-- that is central to the history of Modern Middle East, by assessing proposed theses and explanations through a 1988 public opinion survey.^[Or the history of Islamic Societies in the modern period. The "Modern" Middle East, for analytical purpose, is commonly agreed to have begun with Napoleon's invasion of Egypt in 1798.] 
+
+The dependent variable of this study is "Support for Political Islam", which I draws on the 1988 survey's effort in measuring how people perceive, at that particular point in time, the ideas, the organizational structures and actions taken to explore the relationships of Islam and politics in that modern world.
+
+# Literature Review
+
+### How Historians talk about Islamism
+
+#### William Cleveland
+
+In *A History of the Modern Middle East*, Cleveland gives the period 1970 to 1990 the title "The Resurgence of Islam", and he laids down four patterns in development, which Political Islam also takes the leading role and is marked as "unexpected".(@clevelandHistoryModernMiddle2013)^[the four patterns are: (1)The resurgence of Islam, (2)The authoritarian regimes, (3)The petroleum revolution and the rise of Sauidi Arabia and Kuwait, (4) The reconfiguration of leadership in Arab state system, pp. 345-346]
+Cleveland, William L. A History of the Modern Middle East. Fifth edition. With Martin P. Bunton. Westview Press, a member of the Perseus Books Group, 2013.
+
+#### Ira Lapidus
+
+As Ira Lapidus shows
+
+### How Social Scientists talk about Islamism
+
+**Coarse-to-Fine Examination of Islamist Movements**
+
+1. Why Islamic Revolution happened in Iran? State-level analysis, comparison.
+
+#### Rethinking Political Islam
+
+for the mainstream, brotherhood inspired Islamist, their main problem is on how to solve the tension between, to reconcile between the movement (haraka) and the party (hizb)
+
+#### Brooke and Ketchley
+
+2. Steven Brooke and Neil Ketchley "Social and Institutional Origins of Political Islam": the spread and the distribution of Muslim Brotherhood branches in the Interwar (1937-1945) Egypt[@brookeSocialInstitutionalOrigins2018]
+
+#### Mark Tesseler
+
+As far as I am aware, Tessler has published 4 articles that analyze the 1988 dataset. Across these studies he used dependent variables from:
+
+- Attitude toward Israel
+- Attitude toward democracy
+- Support for Political Islam
+
+The main points he presented with the survey data as evidence is that
+
+
+
+1. "Popular Support": who are the ordinary muslims that support for political islam, and what individual characteristics or circumstances leading them to certain perception of Islamist group, to join Islamist movement and to agreement with Islamic Ideologies?[@tesslerOriginsPopularSupport1997]
+
+
+# Data Collection
+
+## Evidence from Public Opinion Surveys
+
+### *Carnegie Middle East Governance and Islam Dataset, 1988-2014 (ICPSR 32302)*(@tesslerCarnegieMiddleEast2016a)^[Tessler, Mark. Carnegie Middle East Governance and Islam Dataset, 1988-2014. Inter-university Consortium for Political and Social Research [distributor], 2016-04-28. https://doi.org/10.3886/ICPSR32302.v6]
+
+This dataset from ICPSR contains individual and country level variables from surveys done in the Middle East during 1988 to 2014, integrating 56 surveys to allow two-level, over-time analysis.
+
+### 1988 Public Opinion Survey
+
+This survey was carried out in mid-1988, with samples drawn from Cairo and Kuwait, targeting the urban Sunni Muslim adults: Egyptians (n = 292), Kuwaitis (n = 300) and Palestinians residing in Kuwait (n = 293).^[ICPSR 32302 codebook, @garnhamDemocracyWarPeace1995, pp. 164-166. Namely, Kuwaiti Shii muslims, Egyptian Christians and Palestinian Christians were excluded.] This implies that we can generally attribute the following labels for the respondents in the dataset:
+
+- Sunni Muslim
+- Arab
+- Adult
+- Urban
+
+Allowing for a glimpse into the patterns and variations in attitudes at the individual level, at the same time, the design of this survey project enables us to group these individuals into belonging to three distinct populations:
+
+- Egyptian citizens
+- Kuwaiti citizens
+- Long-time Palestinian residents of Kuwait
+
+Which, in turn, provides us the opportunity for understanding and comparison at a more coarse level. This survey project also looked forward to the typicality and generalizability of the sample of Egyptians to represent (Tunisians, Algerians, Jordanians, Moroccans); as for the sample of Kuwaitis to represent those living in the Gulf shakhdoms.
+
+## Episodes
+
+### Episode 1
+
+::: {.callout-note appearance="simple" title = "In Progress"}
+
+### Inquiry regarding missing sample and Request for original survey questionnaire
+
+I first encountered the 1988 public opinion survey while reading Tessler's *"The origins of popular support for Islamist movements: A political economy analysis (1997)"*[@tesslerOriginsPopularSupport1997] Later, I was able to find this dataset available on ICPSR, presented in *Carnegie Middle East Governance and Islam Dataset, 1988-2014 (ICPSR 32302)*[@tesslerCarnegieMiddleEast2016a] This dataset is an effort to gather surveys across the period, reorganize and harmonize the survey items into variables that allow for analysis over time. Therefore, some of survey items that Tessler used in his analysis cannot be found in the dataset, and the codebook contains limited descriptions for the 1988 survey.
+
+As I went on to seek for further details about the 1988 survey, I came across Tessler and Grobschmidt's study *"Democracy in the Arab world and the Arab-Israeli conflict (1995)"*.[@garnhamDemocracyWarPeace1995, Mark Tessler, and Marilyn Grobschmidt. "Democracy in the Arab world and the Arab-Israeli conflict.", pp. 135-169] This earlier analysis led me to learn that the 1988 survey originally included 293 Palestinians residing in Kuwait, while the ICPSR dataset only contains the 292 Egyptian respondents and the 300 Kuwaiti respondents.^[and in 1992 Tessler had already finished writing his research "The Origin of Popular Support for Islamist movements" as a part of a research project launched by USAID, yet, it was till 1997 that the paper was rewritten and published]
+
+![](image/codebook.png){width="50%"}
+![](image/total885.png){width="70%"}
+
+That is, although the dataset I have acquired is already fruitful, yet, relying on it alone would not allow me to replicate many analyses that were done right after 1988. And I could not convince myself not to think about why there were originally three samples originally yet I am now using only two of them because of accessibility.
+
+Therefore, I reached out first to ICPSR. They looked over the version history and did not find any records about the 1988 Palestinian sample nor the original survey instrument. Thus, they kindly contacted Professor Tessler on my behalf. The good new today is that I received professor Tessler's reply. In the mean time, I truly look forward to learn more about what happened with the Palestinian sample and anticipate the chance of access to the original dataset.
+
+![](image/dataset-inquiry.png){width="50%"}
 
 :::
 
-::: {.callout-tip}
+### Episode 2
 
-**diveristy**
-**patterns**
-**historical topics**
+Thanks to the generosity and kindness of Professor Tessler, I have the chance to look into these three groups together. And I worked on to recover the original variables with the researches done in the 1980s, 1990s that used the original variable name, especially:
 
-The main message that I wanted this project to bring about is that:
+- Mark Tessler, and Jamal Sanad, "Will the Arab Public Accept Peace with Israel: Evidence From Surveys in Three Arab Societies." In *Israel at the Crossroads*, Gregory Mahler and Efraim Karsh ed. (London: British Academic Press, 1994)(@karshIsraelCrossroadsChallenge1994)^[pp. 48-70]
+- David Garnham, and Mark A. Tessler, *Democracy, War, and Peace in the Middle East* (Bloomington: Indiana University Press, 1995)(@garnhamDemocracyWarPeace1995)^[Mark Tessler, and Marilyn Grobschmidt. "Democracy in the Arab world and the Arab-Israeli conflict.", pp. 135-169]
+- Mark A. Tessler, and Jolene Jesse, "Gender and Support for Islamist Movements: Evidence from Egypt, Kuwait and Palestine." *The Muslim World* 86, no. 2 (1996): 200–228. ATLA0001012290.(@GenderSupportIslamist)
+- Mark Tessler, and Ina Warriner. “Gender, Feminism, and Attitudes toward International Conflict: Exploring Relationships with Survey Data from the Middle East.” *World Politics* 49, no. 2 (1997): 250–81. https://doi.org/10.1353/wp.1997.0005.(@tesslerGenderFeminismAttitudes1997)
+- Mark Tessler, “The Origins of Popular Support for Islamist Movements: A Political Economy Analysis.” *Islam, Democracy, and the State in North Africa*, (Bloomington: Indiana University Press, 1997)
 
-The Umma from its beginning to how the muslims would like to project today has the property of diversity
+### Episode 3
 
-The Sharia, the foundations of Islamic Laws that basically formulated by 850 ad, was a mark of an effort to apprehend the Islamic scripture (the Quran and the Hadith) and the customary practices of the earlist followers of Muhammad into a structuring device for a continuing society to reproduce and for the umma to thrive. How the community and the laws has always been closely tied together can be proven by the diversity of the community reflected on the diversity in Islamic Law.
-
-The Sharia, the Islamic law that basically formulated by around 850 AD, marked an effort to apprehend the Islamic scriptures (the Quran and the Hadith) and the customary practices of the earliest followers of Muhammad, turning them into a structuring device for a continuing society to reproduce and for the umma to thrive. The close connection between the community and the law is evident in the way the diversity of the community is reflected in the diversity of Islamic law.
-
-:::
-
-## Abstract
-
-## Introduction
+After reading the related materials, I was able to map most of the variables to the corresponding questions that were asked. I later went on to recover some of the variables that were not decoded properly.^[most of them were variables that ask the respondent to rank]
 
 
-On what basis can we talk about an "Islamic Revival", "Islamic Radicalization"? What evidence can allow us to indicate an emerging support for political Islam from the mass in the 1980s?
+# Place the Model
 
-- The coming up of new ideas, new political thinkings and new imagination of communities which Islam played a significant role.
+To understand Political Islam in 1988, we might be interested in learning about a conditional probability distribution for people to arrive at being supportive of Islamic movements. Or, we might want to learn from our data the parameters that tell us about the data generating process of individuals that support Islamist. If our interest is more of the former, we need to be explicit that we can't really observe attitudes, that is, what we can do for this latent variable, is to browse ways that people conventionally take to measure or to contruct a proxy that operationalize the particular attitude that we are interested in.
 
-> the ideological preparation for thia massive social revolution had been articulated for almost a century
-> My principle argument was that "Islamic Ideology" as a kind of Kantian Categorical Imperative, was formed in dialectical conversation with the West, itself a categorical invention of the European (colonial) modernity. (here, I would be willing to adopt Dabashi's definition of the rise of "Islamic Ideology" counting from al-Afaghani (1838-1897))[@dabashiTheologyDiscontentIdeological, ix-x]
+Therefore, 
+### The Success or Failure of Political Islam
 
-- The rapid growth of members and geograohical coverage of Muslim Brotherhood as a movement.
+Though historians tend not to talk about a categorical success, yet I wanted to invite discussions thus, it would be good to start with thinking about a definition.
 
-- The most direct evidence probably is that the Islamist, or the Islamic political parties were doing well in elections.[@garnhamDemocracyWarPeace1995]
+In the introduction of the 2017 book *Rethinking Political Islam*, they address specifically the question: How do Islamists-- and the international community-- measure Islamist success
 
-- Election handbook[@krennerichElectionsAfricaData1999]
+We are invited to think about how election success of Islamist, that is, in most of the case for Middle Eastern states, we need to pay extra attention to the political environments with which the Islamist came whether take seats in parliament or to really succeed in taking power. I believe the point made here is especially relevant to the analysis that this project aiming to carry out.
 
-## Literature Review
+That is, rather than beginning with a definition, let us first scroll through the political environments of that period the late 1980s.
 
-#### Mark Tessler and 
+Egypt, as Ira Lapidus summarized, has been a secular state with Islamic opposition since the 1930s, the Egyptians were freed from the colonial or imperial influence that shadowed since the opening of 19th century, or more concretely the aftermath of WW1, by the 1952. it would be nice if we can tell this story with some supportive evidence from our data
 
-The study that I hope to revisit is[@tesslerOriginsPopularSupport1997]
+The first important characteristic of Egyptians' political imagination is the popularity or revolutionary reputation of the Military Officers, that group of men generated in very similar process to become Gamal Abdul Nasser.
 
+Which despite the glorious period of Arab Socialism seemed to be over at the time of 1988, and that the military figures not as they used to, being deemed as the most representing the people and the nation, yet we can still see that the charismatic Egyptian leader Nasser was still ranked the most admirable figure across all three of population in our dataset.
 
-#### Steven Brooke and Neil Ketchley
-
-This study took on an innovative approach for a historical understanding the origins of Politcal Islam in inter-war (1937-1945) Egypt.
-
-One way that we can talk about the increasing popular support for Islamist movements in the middle East and to find an explanation for that social phenomenon[@brookeSocialInstitutionalOrigins2018, dataverse]
-
-#### Theories
-
-1. Olivier Roy: born Muslim again in the west, suggesting that political islam has to do with East-West encounters
-2. A creative response to Modernity: modern (western) education gave them the ability of becoming some of the strongest critics of modern western society (Sayyid Qutb)
-3. A going back that is disrupting the grain of history that they expect should have continued to progress toward their values. Against the grain, not enlightened.
-
-Some of the theories that we would not want to adopt as we believe that there are ways of looking at this history that would be..
-
-The end of history, the clash of civilization, the new world order.
-
-## Tools
-
-Bayesian Work flow[@gelmanBayesianDataAnalysis2013]
-
-## Content
-
-### Evidence
-
-**1988 Jamal al-Suwaidi Survey Data**
-
-This survey was carried out in mid-1988, with samples drawfrom Cairo and Kuwait, targeting the urban Sunni adults: Egyptians (n = 292), Kuwaitis (n = 300)and Palestinians residing in Kuwait at that time (n = 293).[@garnhamDemocracyWarPeace1995, pp. 164-166]
-
-The data available on ICPSR *Carnegie Middle East Governance and Islam Dataset, 1988-2014 (ICPSR 32302)* only includes only the Egyptian and Kuwaiti sample, the Palestinian sample is not present.[@tesslerCarnegieMiddleEast2016a]
+`Q70P1`
 
 
-### EDA and the Naive Attempt
+### Dependent Variable
 
-## Context
+On what basis can we talk about an "Islamic Revival", "Islamic Radicalization"? What evidence can allow us to indicate an emerging support for political Islam from the mass in the 1980s? Or, what takes us to arrive at saying the success or failure of Political Islam?[@royFailurePoliticalIslam1994, the just Ummah didn't come accordingly]
 
-- 1960, the development of religiously-leaning parties in Turkey^[mme notes]
-- 1983-05-20, Motherland Party in Turkey.
-- 1986-02-22 People Power Revolution in the Philippines, the good muslim image that the moro Muslim elites constructed for them^[Lapidus, pp. 752-754]
-- Tunisia, since 1960s rather than French-Tunisian id, they go for Arab and Muslim identities. 1981 the founding of Islamic Tendency Movement by Rashid al-Ghannouchi, 1989 Ben Ali banned Islamist parties^[Lapidus, pp. 640-641]
+- Tracing the genealogy of "Islamic Ideology", for example, adopting Dabashi's broad definition, we can count from Jamal al-Din al-Afghani (1838-1897)[@dabashiTheologyDiscontentIdeological]
+-  Muslim Brotherhood membership statistics, and the various attempts from the state to oppress can be seen as evidence of their presence that was intolerable.
+-  The most direct evidence probably is that the Islamist, or the Islamic political parties were doing well in elections.[@krennerichElectionsAfricaData1999]
+   -  1992 Ramallah election for Chamber of Commerce, PLO defeated by Hamas[@ibrahimPLOFacingGrowing1992]
+- A particular survey item, or a set of survey items.
 
-#### Egypt
+Ex. 
 
-- Egypt after the Free Officers' revolution came to be a semi-authoritarian regime, being a one-party republic yet relied heavilt on popular support, and marked by the military authoritarian rules that represented itself being will of the mass.
-- Yet, that one party from liberation Party to Nationa Union to Arab Socialist Union still have been faced with a implicit competitor, which is the Muslim Brotherhood, which by retaining that being religious thus required the regime to tolerate and can't be entirely outlawed, despite that they have already obtained control over al-Azhar, mosque and even made religion a matter of administration.
+1. *Does Muslim Brotherhood or other Islamic Groups represent your political beliefs and orientations?*: A Binary Variable representing individual political affiliation to Islamist Group (regressing `mb_binary` on `quran_freq` using a )
+2. A scale for support for political Islam: a subset of strongly inter-correlated survey items that together providing a score for each individual's degree of support.
 
-#### Iran
+### Adaptive Pooling
 
-- The de-radicalization of Shii community, under Jafar al-Sadiq (702-765 AD)
-- It is the Safavid Dynasty that made Persia a Shii majority
-- traditional?
-- Shariati
-- the stratgic anti-west[@royFailurePoliticalIslam1994]
+The three samples we look at 
 
-> (Shii muslims outside Iran) Claiming a Shiite identity, in fact, indicates a desire to intergrate into modern society, and not a rejection of moderntiy [@royFailurePoliticalIslam1994, pp. 187-189]
+In the Bayesian workflow, there are several stages that we might to be able to introduce or incorporate contextual information, this is one of them.
+
+For the polulation of Kuwaiti Palestinians in the late 1980s, I have two estimates, one is from Cleveland the it is said to be between 300,000 to 400,000 in the 1980s, and the other is from Mark Tessler which is from 250-300,000,
+
+The population of Cairo of 1988
+# Given the Observed Data
+
+# Fit but not overfitting
+
+- evaluate the fit of the model and the implication of the resulting probability distribution
+- here, Kuwait tells a somewhat different story
