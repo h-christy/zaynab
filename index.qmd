@@ -20,9 +20,15 @@ bibliography: causal.bib
 
 # Abstract
 
-As the Middle East entered its modern period, we witnessed the coming up of Islamic ideologies, Islamist movements and, observed concrete "popular support for Political Islam" as Islamists in the region emerged as major opposition groups further as the establishment of Islamic states. Reflecting the recognition of Islamists and Islamic political thoughts by the Middle Easterners, the phenomenon so called Political Islam is interesting not only because it is distinct viewing from "the West" which often discern that getting wrangling religion with politics is a going back since the course of history should be modernize and secularize. But because Political Islam has persisted to be one of the important characteristic of the politics of the Islamic World. The massive amount of scholarly research also indicates the importance of this topic as well as the now had repeatedly addressed multi-dimensionality and complexity in the academics. 
+This project hopes by modeling "Political Islam" in the language of Probability Graphical Models with a historical survey data from the 1988, can help us an understanding of Islamic movements in one of its past, and the complexity for in modeling Political
 
-With the language of Probability Graphical Model, the merits that, this project attempts to model the data generating process of how people came to support Islamist in 1988, or to evaluate whether we can really discern that of a single formula for these individuals.
+As the Middle East entered its modern period, we witnessed the coming up of Islamic ideologies, Islamist movements and, observed concrete "popular support for Political Islam" as Islamists in the region emerged as major opposition groups further as the establishment of Islamic states. Reflecting the recognition of Islamists and Islamic political thoughts by the Middle Easterners, the phenomenon so called Political Islam is interesting not only because it is distinct viewing from "the West" which often discern that wrangling religion with politics is a going back since the course of history should be modernize and secularize. But because Political Islam has persisted to be one of the important characteristic of the politics of the Islamic World. The massive amount of scholarly research also indicates the importance of this topic as well as the now had repeatedly addressed multi-dimensionality and complexity in the academics. 
+
+With the many merits and the expressiveness of the language of **Probability Graphical Model** at hand, modeling the social puzzle of support for political Islam that over tones of scholarly research has proven to multi-dimensional, complex and dynamic, while modeling as a Bayes net, it allows for a graphical presentation and a rather straight forward description that can take care of as many random variables we wanted to include in our model. the merits that, this project attempts to model the data generating process of how people came to support Islamist in 1988, or to evaluate whether we can really discern that of a single formula for these individuals.
+
+The project wanted the **Bayesian humility** to show the complexity of social science subjects, we are going to see that Bayesian models tend not to out perform, yet what really matters is the generalizabiliy rather the the accuracy, they break down the modeling or inference process in order to make the implicit assumptions explicit. Because our subject of interest are human beings
+
+Might public opinion surveys undermine the prevailing misconception on the religion and the culture
 
 
 # Introduction
@@ -141,11 +147,12 @@ After reading the related materials, I was able to map most of the variables to 
 To understand Political Islam in 1988, we might be interested in learning about a conditional probability distribution for people to arrive at being supportive of Islamic movements. Or, we might want to learn from our data the parameters that tell us about the data generating process of individuals that support Islamist. If our interest is more of the former, we need to be explicit that we can't really observe attitudes, that is, what we can do for this latent variable, is to browse ways that people conventionally take to measure or to contruct a proxy that operationalize the particular attitude that we are interested in.
 
 Therefore, 
+
 ### The Success or Failure of Political Islam
 
 Though historians tend not to talk about a categorical success, yet I wanted to invite discussions thus, it would be good to start with thinking about a definition.
 
-In the introduction of the 2017 book *Rethinking Political Islam*, they address specifically the question: How do Islamists-- and the international community-- measure Islamist success
+In the introduction of the 2017 book *Rethinking Political Islam*, they address specifically the question: How do Islamists-- and the international community-- measure Islamist success(@hamidRethinkingPoliticalIslam2017, pp. 11-13)^[Islamist sharing the parliament seats, Islamist doing poorly in elections might not always be a bad thing, since they might in turn am able to sustain its social base that was built gradually through social welfare and relgious education programs]
 
 We are invited to think about how election success of Islamist, that is, in most of the case for Middle Eastern states, we need to pay extra attention to the political environments with which the Islamist came whether take seats in parliament or to really succeed in taking power. I believe the point made here is especially relevant to the analysis that this project aiming to carry out.
 
@@ -158,7 +165,36 @@ The first important characteristic of Egyptians' political imagination is the po
 Which despite the glorious period of Arab Socialism seemed to be over at the time of 1988, and that the military figures not as they used to, being deemed as the most representing the people and the nation, yet we can still see that the charismatic Egyptian leader Nasser was still ranked the most admirable figure across all three of population in our dataset.
 
 `Q70P1`
+### Context
 
+Now that we have the public opinion data ready, around a hundred questions answered, we can begin by listening to what our 885 respondents have to say, about their contexts.
+
+Looking at individual survey items, we can already have the sense of what attitudes and opinions that people share, the commonalities and the variations
+
+> election makes a poor analogy to civil war, the logic of state and church makes a poor analogy to the logic of the state and the Muslims
+>
+
+It would be nice to begin with letting the data to tell us part of the context of 1988
+#### The Arab Bitterness
+
+The resurgence of Islamic movement articulate very real and widespread popular grievances
+
+### Sympathy to Support: How to measure "Popular Support"
+
+
+Given the context that the experience of state and politics can vary widely among our respondents, yet the one of the commonality of the year 1988 is that they are all suffering from their **Authoritarian** regimes, then why public opinion surveys still matter? The reason given is that authoritarian is still very far from totalitarian, 
+
+1. One way of thinking about popular support
+
+> attitudes are unobservable and somehow must be inferred(@kalyvasLogicViolenceCivil2006)^[logic pp. 91-102] Yet below this unanimity lies extreme confusion, for there are two very different
+> ways of thinking about popular support. One way is to think of it as an attitude,
+> preference, or allegiance, and the other is to emphasize behavior or action. Obviously,
+> there is a connection between the two, but in an irregular war the gap between
+> attitudes and actions tends to swell; in many ways, this is the main consequence
+> of the war.
+> Conceptualizing support in attitudinal terms is common.
+
+1. An equally misguided solution to the problem of unobservable attitudes is to derive them uncritically from “revealed” or observed behavior
 
 ### Dependent Variable
 
@@ -177,13 +213,18 @@ Ex.
 
 ### Adaptive Pooling
 
-The three samples we look at 
+The three samples we look at are from three populations that are very different in terms of size, therefore, we want to specify our confidence in how well these 3 sets of 300 respondents can be representative.
+
 
 In the Bayesian workflow, there are several stages that we might to be able to introduce or incorporate contextual information, this is one of them.
 
 For the polulation of Kuwaiti Palestinians in the late 1980s, I have two estimates, one is from Cleveland the it is said to be between 300,000 to 400,000 in the 1980s, and the other is from Mark Tessler which is from 250-300,000,
 
-The population of Cairo of 1988
+As for Kuwait, 2,134,707, which about 40% are citizens.^[https://www.macrotrends.net/global-metrics/countries/kwt/kuwait/population]
+
+The population of Cairo of 1988, 9,169,000^[https://www.macrotrends.net/global-metrics/cities/22812/cairo/population]
+
+> while using the population distribution to structure some dependence into the parameters, thereby avoid the problem of overfitting. (hierachical model can fit more params than there is data points)
 # Given the Observed Data
 
 # Fit but not overfitting
